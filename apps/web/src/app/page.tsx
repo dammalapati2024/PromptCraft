@@ -18,7 +18,7 @@ const FEATURES = [
   {
     icon: Zap,
     title: "SSE Streaming",
-    description: "Real-time streaming results powered by Google Gemini 1.5 Pro.",
+    description: "Real-time streaming results powered by Gemini 2.5 Flash.",
     color: "from-pink-500 to-rose-400",
   },
   {
@@ -82,7 +82,7 @@ export default function HomePage() {
             >
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-purple-500/10 border border-purple-500/20 text-purple-300 text-sm mb-8">
                 <Sparkles className="h-4 w-4" />
-                Powered by Google Gemini 1.5 Pro
+                Powered by Gemini 2.5 Flash
               </div>
 
               <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight mb-6">
@@ -179,7 +179,7 @@ export default function HomePage() {
         {/* Footer */}
         <footer className="relative py-8 px-4 border-t border-white/5">
           <div className="max-w-4xl mx-auto text-center text-sm text-white/30">
-            Built with Next.js 14, Express, and Google Gemini • PromptCraft
+            Built with Next.js 14, Express, and Gemini 2.5 Flash • PromptCraft
           </div>
         </footer>
       </main>
